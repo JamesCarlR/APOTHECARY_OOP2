@@ -920,9 +920,4 @@ private void playNexusScene() {
         "Narrator: The hunt for the Master begins.", 50);
     sc.nextLine();
 }
-
-public void startGUI(GameGUI gui) {
-    // This will be called by the GUI instead of console-based start()
-    // For now, the GUI handles everything through action buttons
-}
 }

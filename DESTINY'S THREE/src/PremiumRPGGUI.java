@@ -117,7 +117,7 @@ public class PremiumRPGGUI {
         String[] keys   = {"warrior","mage","rogue","enemy_wolf","enemy_bat",
                            "enemy_guard","boss_guardian","boss_wraith","boss_warden","logo"};
         String[] paths  = {"images/","src/images/","./","src/",
-                           "D:/APOTHECARY_OOP1_PROJECT_GAME/DESTINY'S THREE/src/images/"};
+                           "D:/APOTHECARY_OOP2_PROJECT_GAME/DESTINY'S THREE/src/images/"};
         for (String k : keys) {
             Image img = null;
             for (String p : paths) {
@@ -1280,11 +1280,11 @@ public class PremiumRPGGUI {
 
     private void showCreditsDialog() {
         showNarrativePopup("Credits — Destiny's Three",
-            "Game Design & Dev   : Salado, Samuel O.\n" +
-            "Programming         : Salado, Samuel O., Cantillas Bryce J., Canedo James D.\n" +
-            "Art & ASCII         : Salado, Samuel O.\n" +
-            "Music & SFX         : Salado, Samuel O.\n" +
-            "Adventure & Combat  : Salado, Samuel O., Canedo James D.\n" +
+            "Game Design & Dev   : Rafanan James Carl P.\n" +
+            "Programming         : Rafanan James Carl P., Cantillas Bryce J., Canedo James D.\n" +
+            "Art & ASCII         : Rafanan James Carl P.\n" +
+            "Music & SFX         : Rafanan James Carl P.\n" +
+            "Adventure & Combat  : Rafanan James Carl P., Canedo James D.\n" +
             "Store & Inventory   : Cantillas Bryce Josef R.\n\n" +
             "Thank you for playing Destiny's Three!\n" +
             "Built with Java OOP — for learning and adventure.");
@@ -1296,7 +1296,7 @@ public class PremiumRPGGUI {
     // ─────────────────────────────────────────────────────────────
     private File findAudio(String name) {
         String[] dirs = {"audio/","src/audio/","./",
-                         "D:/APOTHECARY_OOP1_PROJECT_GAME/DESTINY'S THREE/src/audio/"};
+                         "D:/APOTHECARY_OOP2_PROJECT_GAME/DESTINY'S THREE/src/audio/"};
         for (String d : dirs) {
             File f = new File(d + name);
             if (f.exists()) return f;
